@@ -39,3 +39,8 @@ nav a {
 .important-paragraph{
   font-weight: bold;
 }
+
+.section-image img{
+  width: 100%;
+  height: auto;
+}
