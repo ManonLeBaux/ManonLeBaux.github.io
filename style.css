@@ -1,8 +1,22 @@
 h1 {
   text-align: center;
-  font-size: 1.5em;
+  font-size: 2.5em;
   font-family: cursive;
-  color: #61380B;
+  color: #E8DDDA;
+}
+
+h2 {
+  text-align: center;
+  font-size: 1.6em;
+  font-family: cursive;
+  color: #E8DDDA;
+}
+
+h3 {
+  text-align: center;
+  font-size: 1.3em;
+  font-family: cursive;
+  color: #E8DDDA;
 }
 
 p {
@@ -10,7 +24,10 @@ p {
 }
 
 body {
-  background-color: rgb(250,240,230);
+  background-color: #A3BBBB;
+  /*background-color: #EADBC6;*/
+  /*background-color: rgb(250,240,230);*/
+  margin: 0;
 }
 
 nav {
@@ -28,19 +45,88 @@ nav a {
   text-decoration: none;
   color: black;
   font-weight: bold;
+  border: 1px solid grey;
+  padding: 5px;
+  font-size: 1.5em;
 }
 
 .centered-section {
   margin: auto;
-  width: 50%;
-  padding: 10px;
+  padding: 50px;
+  max-width: 700px;
+
+  text-align: justify;
+  text-justify: inter-word;
 }
 
 .important-paragraph{
   font-weight: bold;
 }
 
-.section-image img{
+.slider-image img{
   width: 100%;
   height: auto;
+  height: 300px;
+}
+
+.section-image {
+  display: flex;
+  justify-content: center;
+}
+
+#header-img {
+  width: 100%;
+}
+
+#video {
+  width: 100%;
+}
+
+#lotus {
+  /*margin: auto;*/
+}
+
+.relax {
+  width: 331px;
+  height: 219px;
+}
+footer {
+  background-color: rgba(0,0,0, 0.2);
+}
+
+footer div{
+  margin: auto;
+  padding: 50px;
+  max-width: 700px;
+  text-align: center;
+}
+
+#contact-top {
+  width: 100%;
+  height: 70px;
+  position: absolute;
+}
+
+#contact-top div {
+  display: flex;
+  justify-content: flex-end;
+  max-width: 1400px;
+  height: 100%;
+  margin: auto;
+  align-items: center;
+}
+
+#facebook {
+  width: 50px;
+  height: 50px;
+}
+#insta {
+  width: 60px;
+  height: 60px;
+  margin-left: 30px;
+}
+#phone {
+  width: 50px;
+  height: 50px;
+  margin-left: 30px;
 }
